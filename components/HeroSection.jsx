@@ -17,7 +17,7 @@ const HeroSection = () => {
           variants={titleVariants}
           className="tracking-widest uppercase"
         >
-          Offer for the best Interior{" "}
+          Offer for the best CFO Services{" "}
         </motion.p>
         <motion.h1
           initial="offscreen"
@@ -25,7 +25,7 @@ const HeroSection = () => {
           variants={desVariants}
           className="h1"
         >
-          Make your home a <br /> piece of art{" "}
+          Looking for <br /> expert financial guidance{" "}
         </motion.h1>
         <motion.p
           initial="offscreen"
@@ -33,11 +33,12 @@ const HeroSection = () => {
           variants={tagVariants}
           className="pb-6 text-muted-foreground xl:pb-10"
         >
-          Change your view with the best interior design. We provide the best
-          interior design for your Home. Make every moment beautiful with the
-          best interior design. Change your view with the best interior design.
-          We provide the best interior design for your Home. Make every moment
-          beautiful with the best interior design.
+          Are you a <b>Startup, MSME, or growing enterprise</b> looking for
+          expert financial guidance without the high cost of a full-time CFO?
+          Our <b>Virtual CFO Services </b> provide end-to-end financial
+          management, strategic planning, and compliance solutions, managed by
+          highly experienced Chartered Accountants (CAs) and finance
+          professionals
         </motion.p>
         <motion.div
           initial="offscreen"
@@ -52,7 +53,7 @@ const HeroSection = () => {
       {/* Right Image Section */}
       <div className="w-1/2">
         <Image
-          src="/assets/hall.png"
+          src="/assets/hero-img.png"
           width={800}
           height={500}
           alt=""
