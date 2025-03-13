@@ -17,7 +17,7 @@ const Footer = () => {
           >
             <h2 className="pb-4 text-xl font-semibold uppercase">Company</h2>
             <div className="flex flex-col">
-              <Link href="/about" className="py-1 hover:underline">
+              <Link href="/" className="py-1 hover:underline">
                 About Us
               </Link>
               <Link href="/" className="py-1 hover:underline">
@@ -26,7 +26,7 @@ const Footer = () => {
               <Link href="/" className="py-1 hover:underline">
                 Careers
               </Link>
-              <Link href="/contact" className="py-1 hover:underline">
+              <Link href="/" className="py-1 hover:underline">
                 Contact
               </Link>
             </div>
@@ -50,7 +50,7 @@ const Footer = () => {
               <Link href="/" className="py-1 hover:underline">
                 Changelog
               </Link>
-              <Link href="/contact" className="py-1 hover:underline">
+              <Link href="/" className="py-1 hover:underline">
                 Status
               </Link>
             </div>
@@ -72,7 +72,7 @@ const Footer = () => {
               <Link href="/" className="py-1 hover:underline">
                 Facebook
               </Link>
-              <Link href="/contact" className="py-1 hover:underline">
+              <Link href="/" className="py-1 hover:underline">
                 YouTube
               </Link>
             </div>

@@ -12,8 +12,9 @@ const AboutComponent = () => {
           whileInView={"onscreen"}
           variants={titleVariants}
         >
+          {/* aboutfront.png */}
           <Image
-            src="/assets/aboutfront.png"
+            src="/assets/hero-img.png"
             width={900}
             height={500}
             alt="About"
@@ -27,7 +28,7 @@ const AboutComponent = () => {
             variants={titleVariants}
             className="px-12 py-4 text-3xl font-extrabold leading-tight lg:text-5xl"
           >
-            We are awards Winning Company
+            Why Our Virtual CFO Services Stand Out?
           </motion.h2>
 
           <motion.p
@@ -36,7 +37,8 @@ const AboutComponent = () => {
             variants={desVariants}
             className="px-12 tracking-wider uppercase text-gray-400 mt-3"
           >
-            World Award
+            Our Virtual CFO services are not just about bookkeeping and
+            compliance; we act as your strategic finance partner to help you:
           </motion.p>
           <motion.p
             initial="offscreen"
@@ -44,10 +46,11 @@ const AboutComponent = () => {
             variants={tagVariants}
             className="px-12 pb-4 mt-4"
           >
-            This is a company engaged in the field of interior design. We
-            provide the best interior design for your home. We have been trusted
-            by many people to design their homes. We have also received many
-            awards from various countries for our work.
+            Manage your finances efficiently. <br /> Comply with all taxation &
+            legal regulations.
+            <br /> Plan & optimize your tax liabilities. <br /> Secure funding &
+            investment opportunities. <br /> Drive business expansion &
+            profitability
           </motion.p>
           <motion.p
             initial="offscreen"
@@ -55,10 +58,8 @@ const AboutComponent = () => {
             variants={tagVariants}
             className="px-12 pb-4"
           >
-            This is a company engaged in the field of interior design. We
-            provide the best interior design for your home. We have been trusted
-            by many people to design their homes. We have also received many
-            awards from various countries for our work.
+            We ensure that your financial health is strong so you can focus on
+            scaling your business
           </motion.p>
         </div>
       </div>
