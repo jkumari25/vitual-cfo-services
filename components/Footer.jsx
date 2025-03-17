@@ -108,7 +108,7 @@ const Footer = () => {
       >
         <div className="container text-white text-center lg:justify-between lg:flex">
           <div className="pb-4 lg:pb-0">
-            <p>&copy; 2024 Interior Go. All Rights Reserved.</p>
+            <p>&copy; 2025 Virtual CFO. All Rights Reserved.</p>
           </div>
           <div>
             <Link href="/" className="p-4 hover:underline">
