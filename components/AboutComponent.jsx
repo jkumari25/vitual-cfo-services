@@ -46,11 +46,11 @@ const AboutComponent = () => {
             variants={tagVariants}
             className="px-12 pb-4 mt-4"
           >
-            Manage your finances efficiently. <br /> Comply with all taxation &
-            legal regulations.
-            <br /> Plan & optimize your tax liabilities. <br /> Secure funding &
-            investment opportunities. <br /> Drive business expansion &
-            profitability
+            1. Manage your finances efficiently. <br /> 2. Comply with all
+            taxation & legal regulations.
+            <br /> 3. Plan & optimize your tax liabilities. <br /> 4. Secure
+            funding & investment opportunities. <br /> 5. Drive business
+            expansion & profitability.
           </motion.p>
           <motion.p
             initial="offscreen"
