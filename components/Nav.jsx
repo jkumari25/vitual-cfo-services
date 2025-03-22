@@ -12,8 +12,7 @@ const links = [
     name: "home",
   },
   {
-    // path: "/about",
-    path: "",
+    path: "/about",
     name: "about",
   },
   // {
@@ -22,8 +21,7 @@ const links = [
   //   name: "gallery",
   // },
   {
-    // path: "/services",
-    path: "",
+    path: "/services",
     name: "services",
   },
   {

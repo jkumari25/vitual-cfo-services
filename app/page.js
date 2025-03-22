@@ -3,8 +3,8 @@ import AboutComponent from "@/components/AboutComponent";
 // import CatalogueSection from "@/components/CatalogueSection";
 // import CatalogueSwiperSection from "@/components/CatalogueSwiperSection";
 import CompanySection from "@/components/CompanySection";
-// import ContactSection from "@/components/ContactSection";
-// import CtaSection from "@/components/CtaSection";
+import ContactSection from "@/components/ContactSection";
+import CtaSection from "@/components/CtaSection";
 import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
@@ -13,11 +13,11 @@ export default function Home() {
       <HeroSection />
       <CompanySection />
       <AboutComponent />
-      {/* <CatalogueSection />
-      <CatalogueSwiperSection />
+      {/* <CatalogueSection /> */}
+      {/* <CatalogueSwiperSection /> */}
       <ContactSection />
-      <BlogSection />
-      <CtaSection /> */}
+      {/* <BlogSection /> */}
+      <CtaSection />
     </>
   );
 }

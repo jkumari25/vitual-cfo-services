@@ -6,37 +6,35 @@ const CatalogueSection = () => {
   const items = [
     {
       id: "01",
-      category: "BEDROOM SETUP",
-      title: "Cossy Bedroom Setup",
-      image: "/assets/bedroom.jpg",
-      description:
-        "family drawing room with a clean and comfortable design for your family.",
+      category: "FINANCIAL PLANNING",
+      title: "Complex Financial Planning",
+      image: "/assets/financial-planning.png",
+      description: "Handling complex financial planning & corporate taxation.",
     },
     {
       id: "02",
-      category: "KITCHEN SETUP",
-      title: "Neat & and Clean Kitchen",
-      image: "/assets/kitchen1.jpg",
-      description:
-        "family drawing room with a clean and comfortable design for your family.",
+      category: "BUSINESS MANAGEMENT",
+      title: "Industry-wide Business Management",
+      image: "/assets/business-management.png",
+      description: "Managing businesses across various industries.",
     },
     {
       id: "03",
-      category: "DRAWING SETUP",
-      title: "Neat Drawing Room",
-      image: "/assets/drawing.jpg",
+      category: "TAX LITIGATION",
+      title: "Tax Litigation & Regulatory Matters",
+      image: "/assets/tax-litigation.png",
       description:
-        "family drawing room with a clean and comfortable design for your family.",
+        "Representing clients in tax litigation & regulatory matters.",
     },
     {
       id: "04",
-      category: "LIVING SETUP",
-      title: "Clean Living Room",
-      image: "/assets/living.jpg",
-      description:
-        "family drawing room with a clean and comfortable design for your family.",
+      category: " OPERATIONAL EFFICIENCY",
+      title: "Profitability & Efficiency",
+      image: "/assets/operational-efficiency.png",
+      description: "Driving profitability & operational efficiency.",
     },
   ];
+
   return (
     <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2 lg:gap-0 divide-gray-300 lg:divide-x">
       {items.map((item) => (

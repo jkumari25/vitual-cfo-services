@@ -31,13 +31,15 @@ const CtaSection = () => {
         <div className="absolute inset-0 bg-[url('/assets/cta-2.jpeg')] bg-center bg-cover opacity-40"></div>
         <div className="relative z-10 mx-auto py-32 flex flex-col items-center tracking-wider">
           <p className="container text-5xl font-semibold text-black tracking-widest text-center ">
-            Have a project in mind?
+            Empower Your Business with Expert Virtual CFO Services
           </p>
           <p className="container text-xl font-semibold text-black tracking-widest text-center pb-8 pt-4">
-            Do not hesitate to say Hello
+            Take control of your finances, optimize cash flow, and drive
+            sustainable growth with our tailored Virtual CFO solutions.
           </p>
           <Button className="inline-flex items-center px-8 py-3 shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">
-            Get a Free Code <TbArrowUpRight className="w-5 h-5 ml-2" />
+            Get Started with a Free Consultation{" "}
+            <TbArrowUpRight className="w-5 h-5 ml-2" />
           </Button>
         </div>
       </div>

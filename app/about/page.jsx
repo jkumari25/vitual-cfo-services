@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { TbArrowUpRight } from "react-icons/tb";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
+import CatalogueSection from "@/components/CatalogueSection";
 
 const page = () => {
   const ref = useRef(null);
@@ -30,7 +31,7 @@ const page = () => {
   return (
     <div>
       <div
-        className={`bg-[url('/assets/bg-3.jpg')] bg-center bg-cover transition-transform duration-1000 ${
+        className={`bg-[url('/assets/about-bg.png')] bg-center bg-cover transition-transform duration-1000 ${
           loaded ? "scale-95" : "scale-110"
         }`}
       >
@@ -46,7 +47,7 @@ const page = () => {
             variants={titleVariants}
             className="text-3xl font-semibold text-center lg:p-10 lg:text-5xl"
           >
-            We have great idea & Interior Design
+            How Our Team Ensures Excellence
           </motion.h2>
           <motion.p
             initial="offscreen"
@@ -54,15 +55,14 @@ const page = () => {
             variants={desVariants}
             className="text-2xl text-center font-medium pb-10 mt-5"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-            voluptatem voluptates quis aliquid eum, quam fuga tempora quos rem
-            cum necessitatibus beatae explicabo reprehenderit qui fugiat
-            perspiciatis, recusandae enim illum.
+            Our Virtual CFO services are led by a team of expert Chartered
+            Accountants (CAs), finance professionals, and tax advisors with
+            years of experience in:
           </motion.p>
         </div>
 
-        <div className="items-center lg:flex gap-x-8">
-          {/* Left Image Section */}
+        {/* <div className="items-center lg:flex gap-x-8">
+          
           <motion.div style={{ scale }} ref={ref} className="w-full">
             <Image
               src="/assets/about-1.jpg"
@@ -72,7 +72,6 @@ const page = () => {
             />
           </motion.div>
 
-          {/* Right Content Section */}
           <motion.div
             initial="offscreen"
             whileInView={"onscreen"}
@@ -100,7 +99,9 @@ const page = () => {
               </Button>
             </p>
           </motion.div>
-        </div>
+        </div> */}
+        <CatalogueSection />
+
         {/* Team Section */}
         <div className="lg:py-20">
           <div className="pt-8 pb-4">
